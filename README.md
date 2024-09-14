@@ -23,7 +23,7 @@ Rent Room System is a comprehensive platform designed to help users buy, sell, o
 
 - **Messaging System**
   - Direct communication between buyers, renters, and sellers.
-  - Real-time chat functionality for quick negotiations.
+ 
 
 
 
@@ -40,29 +40,21 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/rent-room-system.git
+    git clone https://github.com/CSaurabh28/RentRoom.git
     ```
 
 2. **Navigate to the project directory:**
     ```bash
-    cd rent-room
+    cd RentRoom
     ```
 
-3. **Install required dependencies.**
+3. **Install Postgresql server**
 
-4. **Configure your MySQL database:**
+4. **Configure your postgresql database:**
     - Create a new database.
     - Import the provided SQL file for the initial schema and data.
 
-5. **Update database credentials in the configuration file:**
-    ```java
-    // Example: config/database.properties
-    db.url=jdbc:mysql://localhost:3306/rent_room_db
-    db.username=root
-    db.password=yourpassword
-    ```
-
-6. **Compile and run the project on your local server.**
+5. **Compile and run the project on your local server.**
 
 ## Usage
 
@@ -71,23 +63,6 @@ To set up the project locally, follow these steps:
 3. Property owners can list properties for sale or rent.
 4. Buyers and renters can search and browse properties, then contact sellers or book properties.
 
-## Screenshots
-
-### Home Page
-
-<img src="https://github.com/user-attachments/assets/homepage-screenshot" alt="Home Page" width="600"/>
-
-### Property Listing Page
-
-<img src="https://github.com/user-attachments/assets/listing-page-screenshot" alt="Property Listing Page" width="600"/>
-
-### Search Page
-
-<img src="https://github.com/user-attachments/assets/search-page-screenshot" alt="Search Page" width="600"/>
-
-### Property Management Dashboard
-
-<img src="https://github.com/user-attachments/assets/dashboard-screenshot" alt="Property Management Dashboard" width="600"/>
 
 ## Future Enhancements
 
